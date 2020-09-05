@@ -1,0 +1,24 @@
+.button{
+    width: 100%;
+    background-color: #fff;
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.green
+{
+    background-color: lightgreen;
+}
+
+input.invalid, textarea.invalid{
+	border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+	border: 2px solid green;
+}	
